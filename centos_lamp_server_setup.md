@@ -22,6 +22,12 @@ sudo systemctl start mariadb
 sudo mysql_secure_installation
 ```
 
+##### Update the GPG keys: Run the following command to update the GPG keys used by DNF:
+```bash
+sudo dnf upgrade --refresh
+sudo dnf clean metadata
+```
+
 ```bash
 sudo mysql
 ```
