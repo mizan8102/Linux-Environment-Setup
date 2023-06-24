@@ -1,5 +1,22 @@
 # Centos server setup with LAMP stack
 
+## Step 1 — Logging in as Root
+
+```bash
+ssh root@your_server_ip
+```
+## Centos version check
+```bash
+cat /etc/centos-release
+```
+## GPG check Failed
+```base
+dnf clean all
+dnf update rpm
+dnf update
+
+```
+
 ## Install apache in server
 
 ```bash
