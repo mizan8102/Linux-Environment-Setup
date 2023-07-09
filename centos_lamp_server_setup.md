@@ -130,3 +130,11 @@ sudo systemctl restart httpd
 php -v
 
 ```
+
+
+## Project Issue solve 
+```
+setenforce
+
+```
+OverWrite access ALL in httpd.conf file in apache overwrite
